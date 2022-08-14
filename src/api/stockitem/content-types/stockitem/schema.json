@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stockitems",
+  "info": {
+    "singularName": "stockitem",
+    "pluralName": "stockitems",
+    "displayName": "stockitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
